@@ -43,43 +43,34 @@
         <mxCell id="kF2uQDn-YzheYI1gUQzw-12" value="Add butterflies * 25 to the points count" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="630" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wlA2ypPNjkdhb9OlW4RC-1" value="Billy" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="wlA2ypPNjkdhb9OlW4RC-1" value="Billy" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="220" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wlA2ypPNjkdhb9OlW4RC-7" value="Points Count" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wlA2ypPNjkdhb9OlW4RC-7" value="Points Count" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="400" width="90" height="80" as="geometry">
             <mxRectangle x="140" y="220" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wlA2ypPNjkdhb9OlW4RC-12" value="0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="wlA2ypPNjkdhb9OlW4RC-7">
+        <mxCell id="wlA2ypPNjkdhb9OlW4RC-12" value="?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" parent="wlA2ypPNjkdhb9OlW4RC-7" vertex="1">
           <mxGeometry x="10" y="25" width="70" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="wlA2ypPNjkdhb9OlW4RC-8" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wlA2ypPNjkdhb9OlW4RC-8" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="400" width="140" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="wlA2ypPNjkdhb9OlW4RC-9" value="0 worms" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wlA2ypPNjkdhb9OlW4RC-8">
+        <mxCell id="wlA2ypPNjkdhb9OlW4RC-9" value="0 worms" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="wlA2ypPNjkdhb9OlW4RC-8" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wlA2ypPNjkdhb9OlW4RC-10" value="-1 spiders" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wlA2ypPNjkdhb9OlW4RC-8">
+        <mxCell id="wlA2ypPNjkdhb9OlW4RC-10" value="0 spiders" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="wlA2ypPNjkdhb9OlW4RC-8" vertex="1">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wlA2ypPNjkdhb9OlW4RC-11" value="1000 butterflies" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wlA2ypPNjkdhb9OlW4RC-8">
+        <mxCell id="wlA2ypPNjkdhb9OlW4RC-11" value="0 butterflies" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="wlA2ypPNjkdhb9OlW4RC-8" vertex="1">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wlA2ypPNjkdhb9OlW4RC-13" value="295" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="60" y="300" width="70" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="wlA2ypPNjkdhb9OlW4RC-15" value="Edward" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="wlA2ypPNjkdhb9OlW4RC-15" value="Edward" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="220" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wlA2ypPNjkdhb9OlW4RC-17" value="495" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="160" y="300" width="70" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="wlA2ypPNjkdhb9OlW4RC-19" value="Foolish Tom" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="wlA2ypPNjkdhb9OlW4RC-19" value="Foolish Tom" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="220" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wlA2ypPNjkdhb9OlW4RC-24" value="0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="260" y="300" width="70" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
