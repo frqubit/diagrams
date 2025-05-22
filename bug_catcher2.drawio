@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.6">
+  <diagram name="Page-1" id="jogW6H4fvIHiLOHCQZ5j">
+    <mxGraphModel dx="1186" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F3qnY5Py6tW70gMonQDf-9" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F3qnY5Py6tW70gMonQDf-4" target="F3qnY5Py6tW70gMonQDf-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-33" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F3qnY5Py6tW70gMonQDf-4" target="F3qnY5Py6tW70gMonQDf-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-4" value="Is worms &amp;gt;= 10?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="380" y="57.5" width="135" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-8" value="Return worms * 5" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="367.5" y="310" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-16" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F3qnY5Py6tW70gMonQDf-10" target="F3qnY5Py6tW70gMonQDf-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-38" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="F3qnY5Py6tW70gMonQDf-10" target="F3qnY5Py6tW70gMonQDf-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-10" value="Is spiders &amp;gt;= 5?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="802.5" y="57.5" width="135" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-15" value="&lt;div&gt;Return&lt;/div&gt;&lt;div&gt;(worms * 5) + (spiders * 10)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="790" y="310" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F3qnY5Py6tW70gMonQDf-18" target="F3qnY5Py6tW70gMonQDf-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-18" value="Multiply butterflies by 25" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1025" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F3qnY5Py6tW70gMonQDf-22" target="F3qnY5Py6tW70gMonQDf-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-22" value="Multiply worms by 5" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="590" y="97.5" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F3qnY5Py6tW70gMonQDf-24" target="F3qnY5Py6tW70gMonQDf-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-24" value="&lt;div&gt;Multiply spiders&lt;/div&gt;&lt;div&gt;by 10&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1025" y="152.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F3qnY5Py6tW70gMonQDf-26" target="F3qnY5Py6tW70gMonQDf-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-26" value="Add all the points together" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1025" y="507.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-28" value="Return the value" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="825" y="507.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F3qnY5Py6tW70gMonQDf-30" target="F3qnY5Py6tW70gMonQDf-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F3qnY5Py6tW70gMonQDf-30" value="START" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="150" y="85" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
